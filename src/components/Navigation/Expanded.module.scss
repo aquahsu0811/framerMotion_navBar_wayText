@@ -1,0 +1,19 @@
+.expanded {
+  @apply w-full h-1 bg-transparent absolute left-0 top-2 flex justify-center;
+  z-index: 0;
+}
+
+.expanded_mask {
+  @apply w-full bg-transparent absolute left-0 -top-12 flex justify-center;
+  height: 120px;
+  z-index: 0;
+  overflow: hidden;
+  white-space: nowrap; /* Don't forget this one */
+  text-overflow: ellipsis;
+}
+
+.text {
+  @apply absolute -top-44 text-9xl text-transparent;
+  //color: rgb(115, 115, 115 /1);
+  z-index: 1;
+}

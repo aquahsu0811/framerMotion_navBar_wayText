@@ -1,0 +1,23 @@
+.header {
+  @apply  fixed top-1/2 w-full;
+  
+  ul{
+    @apply list-none flex flex-row justify-around p-1 font-Josefin relative;
+
+    li{
+      @apply p-0 m-0 border-0 ;
+
+      a{
+        @apply no-underline absolute;
+        color: rgb(26, 25, 25);
+        
+        z-index: 2;
+      }
+    }
+
+    Link{
+      z-index: 2;
+    }
+  }
+
+}
